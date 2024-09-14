@@ -2,11 +2,12 @@
   "name": "execution-timer",
   "displayName": "Execution Timer",
   "description": "A VS Code extension to track and display program runtime in seconds in the status bar",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "yyhaos",
   "engines": {
     "vscode": "^1.50.0"
   },
+  "repository": "https://github.com/yyhaos/execution-timer.git",
   "activationEvents": [
     "onDebug",
     "onCommand:extension.resetTimer",
