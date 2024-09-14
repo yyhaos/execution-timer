@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "ES2015",
+		"lib": [
+			"ES2015",
+			"DOM"
+		],
+		"module": "commonjs",
+		"outDir": "./out",
+		"rootDir": "./src",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"types": [
+			"node",
+			"vscode"
+		],
+		"typeRoots": [
+			"./node_modules/@types",
+			"./node_modules/vscode"
+		]
+	},
+	"exclude": [
+		"node_modules",
+		"**/*.test.ts"
+	]
+}
