@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-test",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/timer.ts",
+    "src/test/**/*.ts"
+  ],
+  "exclude": []
+}
